@@ -4,3 +4,5 @@
  - Run "Movie_lens.ipynb" to run the collaborative filtering algorithm and to generate predictions.
 
 ```NOTE: The First 3 steps could be skipped and you can directly perform prediction if the setup is properly done.```
+
+In case of errors while downloading ML Metrics: Download from Source
