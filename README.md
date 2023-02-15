@@ -28,7 +28,7 @@ OTT platforms are on the rise. And as such, there is a huge demand for Recommend
 - Ensure that all the embeddings.csv files are in place for all the modalities.
 - Simply head over to "Experiments/Siamese_Network.ipynb" and Restart and Run all cells.
 - You can set the epochs and other hyperparameters. And training must've started from scratch.
-- Alternatively, if you want to simply test the model, you can skip the training module and run cells under Test module
+- Alternatively, if you want to simply test the model, you can skip the training module and run cells under test module
 ![Data sample](Images/siamese.jpg)
 
 # Train Siamese Model on custom dataset
