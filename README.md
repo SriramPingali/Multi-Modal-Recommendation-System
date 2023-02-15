@@ -6,7 +6,7 @@ OTT platforms are on the rise. And as such, there is a huge demand for Recommend
 ![Data sample](Images/problem_statement.jpg)
 
 # Datasets
-- This task is based on an Enhanced version of [Movielens 100K Dataset](https://grouplens.org/datasets/movielens/100k/). 
+- This task is based on an Enhanced version of [Movielens 100K Dataset](https://grouplens.org/datasets/movielens/100k/), found [here](https://drive.google.com/file/d/1M2kSQdOo-J1gd_mNgNPOljcb4x3419qY/view?usp=sharing). 
 - The traditional dataset simply provides numerical data (Users * Movies ratings from 1 to 5).
 - We however have scraped the web for the textual summaries (IMDb), video trailers (YouTube), Meta data (Directors, Cast, Rating, Duration etc) 
 - We have generated our own embeddings for each modality through methods mentioned in the paper. 
