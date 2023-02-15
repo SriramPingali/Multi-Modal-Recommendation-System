@@ -15,15 +15,15 @@ OTT platforms are on the rise. And as such, there is a huge demand for Recommend
 ![Data sample](Images/data_sample.jpg)
 
 # Dependencies
-Python - 3.10.9
-Pytorch - 1.13.1
-Pytorch-cuda - 11.7
-torchsampler
-numpy
-pandas
-tqdm
-sklearn
-
+- Python - 3.10.9
+- Pytorch - 1.13.1
+- Pytorch-cuda - 11.7
+- torchsampler
+- numpy
+- pandas
+- tqdm
+- sklearn
+ 
 # How to Use?
 - Ensure that all the embeddings.csv files are in place for all the modalities.
 - Simply head over to "Experiments/Siamese_Network.ipynb" and Restart and Run all cells.
@@ -52,5 +52,5 @@ sklearn
 ```
 
 # Acknowledgements
-[GroupLens Movie Lens Dataset](https://grouplens.org/datasets/movielens/100k/)
-[Youtube Data API](https://developers.google.com/youtube/v3)
+- [GroupLens Movie Lens Dataset](https://grouplens.org/datasets/movielens/100k/)
+- [Youtube Data API](https://developers.google.com/youtube/v3)
