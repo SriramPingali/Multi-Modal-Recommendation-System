@@ -6,7 +6,7 @@ OTT platforms are on the rise. And as such, there is a huge demand for Recommend
 ![Data sample](Images/problem_statement.jpg)
 
 # Datasets
-- This task is based on an Enhanced version of [Movielens 100K Dataset](https://grouplens.org/datasets/movielens/100k/), found [here](https://drive.google.com/file/d/1M2kSQdOo-J1gd_mNgNPOljcb4x3419qY/view?usp=sharing). 
+- This task is based on an Enhanced version of [Movielens 100K Dataset](https://grouplens.org/datasets/movielens/100k/), found [here](https://www.kaggle.com/datasets/lamarockzz/enhanced-movielens-100k). 
 - The traditional dataset simply provides numerical data (Users * Movies ratings from 1 to 5).
 - We however have scraped the web for the textual summaries (IMDb), video trailers (YouTube), Meta data (Directors, Cast, Rating, Duration etc) 
 - We have generated our own embeddings for each modality through methods mentioned in the paper. 
@@ -32,7 +32,7 @@ OTT platforms are on the rise. And as such, there is a huge demand for Recommend
 ![Data sample](Images/siamese.jpg)
 
 # Train Siamese Model on custom dataset
-- You can access the Enhanced dataset [here](https://drive.google.com/file/d/1M2kSQdOo-J1gd_mNgNPOljcb4x3419qY/view?usp=sharing)
+- You can access the Enhanced dataset [here](https://www.kaggle.com/datasets/lamarockzz/enhanced-movielens-100k)
 - We have used inhouse embeddings for each modality and stored them in respective "Datasets/ml-100k/\<modality>/embeddings.csv".
 - The code to generate embeddings from raw data files are present in "Experiments/embdding_generation".
 - You can alternatively create your own embeddings and store them in the CSV files of respective modalities. Just be sure that the CSV file (1682 * N) has the same order as that items.csv (1682 * M)
